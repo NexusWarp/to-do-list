@@ -8,7 +8,7 @@ body{
 }
 .bg{
     width: 100%;
-    height: 100vh;
+    height: 1000px;
     background-color: #e5e5f7;
     opacity: 0.3;
     background-size: 22px 22px;
@@ -48,7 +48,7 @@ body{
     /* background-color: #f35151; */
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px double rgb(140, 140, 140);
     align-items: center;
 }
 .sub-btn{
@@ -69,10 +69,20 @@ textarea{
     padding: 25px;
     width: 100%;
     min-height: 50px;
-    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
 }
 li{
     list-style: none;
-    background-color: aqua;
-    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    min-height: 80px;
+    padding: 15px;
+    border-radius: 15px;
+}
+ul{
+    width: 70%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
